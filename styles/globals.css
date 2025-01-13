@@ -1,0 +1,76 @@
+/* styles/globals.css */
+
+/* Font and Global Variables */
+:root {
+  --font-geist-sans: 'Geist', sans-serif;
+  --font-geist-mono: 'Geist Mono', monospace;
+  --color-primary: #1e90ff;
+  --color-secondary: #ff6b6b;
+  --background-light: #f7f9fc;
+  --text-dark: #333;
+  --text-light: #fff;
+}
+
+/* Global Resets */
+body {
+  font-family: var(--font-geist-sans);
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-light);
+  color: var(--text-dark);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Header */
+.header {
+  background: var(--color-primary);
+  padding: 2rem;
+  color: var(--text-light);
+  width: 100%;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+
+/* Main Section */
+.main {
+  margin: 2rem 0;
+}
+
+.bannerImage {
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.description {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: var(--text-dark);
+}
+
+.footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  background: var(--color-secondary);
+  color: var(--text-light);
+  font-size: 0.9rem;
+}

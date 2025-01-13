@@ -4,6 +4,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Navbar from "@/comps/Navbar";
 import Footer from "@/comps/Footer";
+import Link from "next/link";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,7 +24,7 @@ export default function Home() {
       </Head>
       <header className={`${styles.header}`}>
         <h1 className={`${styles.title}`}>Face Attendance System</h1>
-        <Navbar />
+        {/* <Navbar /> */}
       </header>
       <main className={`${styles.main}`}>
         <Image
@@ -45,7 +46,8 @@ export default function Home() {
           </p>
         </div>
       </main>
-      <Footer />
+      {/* <Footer /> */}
+      <Link href="/niruta">See Contact Info</Link>
     </div>
   );
 }

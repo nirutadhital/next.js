@@ -1,96 +1,18 @@
-.container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  font-family: var(--font-geist-sans);
-  background-color: #f9f9f9; 
-  color: #333; 
-}
-
-.header {
-  text-align: center;
-  padding: 20px 20px;
-  color: black;
-}
-
 .title {
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin: 0;
-  position: absolute;
-  color: black;
-
-}
-
-.subtitle {
-  font-size: 1.2rem;
-  margin-top: 10px;
-}
-
-.main {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-}
-
-.bannerImage {
-  margin: 20px 0;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-.description {
-  max-width: 800px;
+  color: #333;
+  padding-bottom: 20px;
   text-align: center;
-  line-height: 1.6;
 }
-
-.description h2 {
-  font-size: 1.8rem;
-  margin-bottom: 10px;
-  color: #4CAF50; /* Matching green */
+.text {
+  color: #777;
 }
-
-.footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #333;
+.btn {
+  display: block;
+  width: 150px;
+  padding: 8px 0;
+  margin: 20px auto;
+  background: #4979ff;
+  border-radius: 4px;
   color: white;
-}
-
-.footer p {
-  margin: 0;
-  font-size: 0.9rem;
-}
-
-@media (max-width: 768px) {
-  .title {
-    font-size: 2rem;
-  }
-
-  .subtitle {
-    font-size: 1rem;
-  }
-
-  .description h2 {
-    font-size: 1.5rem;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .container {
-    background-color: #121212;
-    color: #e0e0e0;
-  }
-
-  .header {
-    background-color: #1e8e3e; /* Darker green for dark mode */
-  }
-
-  .footer {
-    background-color: #222;
-  }
+  text-align: center;
 }

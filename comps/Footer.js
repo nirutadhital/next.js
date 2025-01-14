@@ -1,9 +1,9 @@
 const Footer = () => {
     return ( 
-        <div>
+        <footer>
             Copyright 2025 Niruta Dhital
-        </div>
-     );
+        </footer>
+     )
 }
  
 export default Footer;

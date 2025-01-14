@@ -9,7 +9,7 @@ const Navbar = () => {
             <Link href="/about">About</Link>
             <Link href="/niruta">Contact</Link>
         </nav>
-     );
+     )
 }
  
 export default Navbar;
